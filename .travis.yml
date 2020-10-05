@@ -9,4 +9,4 @@ deploy:
   skip_cleanup: true
   on:
     branch: master
-  fqdn: tehranjs.ehsangazar.com    
+  fqdn: persiajs.com

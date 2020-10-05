@@ -11,7 +11,7 @@ const Footer = ({ post }) => {
                 </span>
                 <ul>
                     <li>
-                        <a href="https://t.me/tehranjs">
+                        <a href="https://t.me/persiajs">
                             <i className="fa fa-telegram"></i>
                         </a>
                     </li>
