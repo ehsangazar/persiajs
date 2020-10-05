@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import logoImg from './logo.jpg'
+import logoImg from './persiajs.png'
 import Footer from '../Footer/Footer'
 import './Layout.css'
 
