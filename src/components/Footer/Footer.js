@@ -7,7 +7,7 @@ const Footer = ({ post }) => {
         <div className="Footer">
             <div className="Footer--Followers">
                 <span>
-                    تهران‌جی‌اس را دنبال کنید
+                    پرشیا‌ جی‌اس را دنبال کنید
                 </span>
                 <ul>
                     <li>
