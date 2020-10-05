@@ -1,9 +1,9 @@
 {
-  "name": "tehran-js",
+  "name": "persiajs",
   "private": true,
-  "description": "This is a website for tehran js to manage events online",
+  "description": "This is a website for Persia JS to manage events online",
   "version": "0.1.0",
-  "author": "Tehran JS Community",
+  "author": "Persia JS Community",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -44,7 +44,7 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/ehsangazar/tehran-js.git",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/ehsangazar/persiajs.git",
     "deployTest": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",

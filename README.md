@@ -1,3 +1,3 @@
-# Tehran JS Website
+# Persia JS Website
 
-This is a website for Tehran JS Community written with Gatbsy
+This is a website for Persia JS Community written with Gatbsy
