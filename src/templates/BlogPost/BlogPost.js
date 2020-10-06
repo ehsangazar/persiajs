@@ -23,7 +23,7 @@ const BlogPost = ({ data, pageContext, location }) => {
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date} - ساعت ۶ به وقت تهران</p>
+          <p>{post.frontmatter.date} - پنج‌شنبه ساعت ۶ به وقت تهران</p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}

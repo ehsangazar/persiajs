@@ -74,7 +74,7 @@ const LastPost = ({post}) => {
             <h1 itemProp="headline">{post.frontmatter.title}</h1>
             <p>
               {new Date(post.frontmatter.date).toLocaleDateString("fa-IR")} -
-              ساعت ۶ به وقت تهران
+              پنج‌شنبه ساعت ۶ به وقت تهران
             </p>
             <section
               dangerouslySetInnerHTML={{ __html: post.html }}
@@ -101,7 +101,7 @@ const LastPost = ({post}) => {
                       {new Date(post.frontmatter.date).toLocaleDateString(
                         "fa-IR"
                       )}{" "}
-                      - ساعت ۶ به وقت تهران
+                      - پنج‌شنبه ساعت ۶ به وقت تهران
                     </p>
                     <p>
                       لینک زوم را در تقویم خود قرار دهید یا از گروه تلگرام قبل

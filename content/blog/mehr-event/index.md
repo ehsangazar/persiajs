@@ -1,6 +1,6 @@
 ---
 title: رویداد مهر‌ماه پرشیا جی‌اس
-date: "2020-10-14"
+date: "2020-10-15"
 eventId: 1
 zoom: https://zoom.us/j/95871414091?pwd=T0xENmpneEV0Wlp5dGorbkFNWS9aUT09
 description: "Hello World"
@@ -21,6 +21,23 @@ description: "Hello World"
             </a>
             <a href="http://fa.ehsangazar.com/">
                 <i class="fa fa-link"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="speaker">
+    <img src="./amin.png" />
+    <div class="speaker-content">
+        <h3>
+            چطور با React یک Admin Panel بنویسیم و Form Builder چگونه کار می‌کند؟
+        </h3>
+        <h5>
+            - امین شایسته
+        </h5>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/amin-shayesteh-588aab114/">
+                <i class="fa fa-linkedin"></i>
             </a>
         </div>
     </div>
