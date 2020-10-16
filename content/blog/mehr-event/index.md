@@ -16,12 +16,13 @@ description: "Hello World"
             - احسان گازار
         </h5>
         <div class="social-media">
-            <a href="https://au.linkedin.com/in/gazar">
+            <a class="link" target="_blank"  href="https://au.linkedin.com/in/gazar">
                 <i class="fa fa-linkedin"></i>
             </a>
-            <a href="http://fa.ehsangazar.com/">
+            <a class="link" target="_blank"  href="http://fa.ehsangazar.com/">
                 <i class="fa fa-link"></i>
             </a>
+            <a target="_blank" class="button" href="https://youtu.be/7g-gMe0-A24">مشاهده این سخرانی</a>
         </div>
     </div>
 </div>
@@ -36,20 +37,12 @@ description: "Hello World"
             - امین شایسته
         </h5>
         <div class="social-media">
-            <a href="https://www.linkedin.com/in/amin-shayesteh-588aab114/">
+            <a class="link" target="_blank"  href="https://www.linkedin.com/in/amin-shayesteh-588aab114/">
                 <i class="fa fa-linkedin"></i>
             </a>
+            <a target="_blank" class="button" href="https://youtu.be/lGTQ6C4elNA">مشاهده این سخرانی</a>
         </div>
-    </div>
-</div>
-<div class="speaker">
-    <img src="./unknown.png" />
-    <div class="speaker-content">
-        <h3>
-            شما سخنران باشید؟
-        </h3>
-        <h5>
-            - ناشناس
-        </h5>
+        <div>
+        </div>
     </div>
 </div>

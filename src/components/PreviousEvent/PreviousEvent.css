@@ -1,0 +1,36 @@
+.PreviousEvent {
+    display: flex;
+}
+.PreviousEvent article {
+    flex-grow: 1;
+}
+.PreviousEvent img {
+    width: 100%;
+}
+.register-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 40px;    ;
+}
+.register-button button {
+  width: 100%;
+}
+.code {
+  font-family: monospace;
+  font-size: 12px;
+  background-color: #eee;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  direction: ltr;
+  text-align: left;
+}
+@media (max-width: 960px) {
+    .PreviousEvent {
+        flex-direction: column;
+    }
+    .PreviousEvent article {
+        padding: 0 20px;
+    }
+}

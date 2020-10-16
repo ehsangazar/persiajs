@@ -7,28 +7,9 @@ import './Layout.css'
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
-  let header
-
-  if (isRootPath) {
-    header = (
-      <div className="logo">
-        <img src={logoImg} />
-        <h1 className="main-heading">
-          <Link to="/">{title}</Link>
-        </h1>
-      </div>
-    )
-  } else {
-    header = (
-      <Link className="header-link-home" to="/">
-        {title}
-      </Link>
-    )
-  }
-
   return (
     <div data-is-root-path={isRootPath}>
-      <header className="container">
+      <header className="container-2">
         <div className="logo">
           <Link to="/">
             <img src={logoImg} />

@@ -1,17 +1,20 @@
-.LastPost {
+.FutureEvent {
     display: flex;
 }
-.LastPost article {
+.FutureEvent article {
     flex-grow: 1;
 }
-.LastPost img {
+.FutureEvent img {
     width: 100%;
 }
 .register-button {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-top: 40px;
+    margin-top: 40px;    ;
+}
+.register-button button {
+  width: 100%;
 }
 .code {
   font-family: monospace;
@@ -24,10 +27,10 @@
   text-align: left;
 }
 @media (max-width: 960px) {
-    .LastPost {
+    .FutureEvent {
         flex-direction: column;
     }
-    .LastPost article {
+    .FutureEvent article {
         padding: 0 20px;
     }
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { Link } from "gatsby"
-import './LastPost.css'
+import './FutureEvent.css'
 import computerImage from './computer.png'
 import Button from "../Button/Button"
 import MyModal from "../MyModal/MyModal"
@@ -9,7 +9,7 @@ import Members from "../Members/Members"
 import Input from "../Input/Input"
 import fetchHandler from '../../utils/fetchHandler'
 
-const LastPost = ({post}) => {
+const FutureEvent = ({post}) => {
     const [open,setOpen] = useState(false)
     const [form,setForm] = useState({})
     const [loading,setLoading] = useState(false)
@@ -66,10 +66,7 @@ const LastPost = ({post}) => {
 
     return (
       <>
-        <div id="main-event" className="LastPost container-2">
-          <div>
-            <img src={computerImage} />
-          </div>
+        <div id="main-event" className="FutureEvent container-2">          
           <article itemScope itemType="http://schema.org/Article">
             <h1 itemProp="headline">{post.frontmatter.title}</h1>
             <p>
@@ -79,11 +76,14 @@ const LastPost = ({post}) => {
             <section
               dangerouslySetInnerHTML={{ __html: post.html }}
               itemProp="articleBody"
-            />
+            />            
+          </article>
+          <div>
+            <img src={computerImage} />
             <div className="register-button">
               <Button onClick={register}>عضویت در این رویداد</Button>
             </div>
-          </article>
+          </div>
           <MyModal open={open} setOpen={setOpen}>
             <div>
               <h5>ثبت‌نام در {post.frontmatter.title}</h5>
@@ -176,4 +176,4 @@ const LastPost = ({post}) => {
     )
 }
 
-export default LastPost
+export default FutureEvent

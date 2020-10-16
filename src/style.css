@@ -49,7 +49,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.486rem;
-  --color-primary: #33c;
+  --color-primary: #d24a22;
   --color-secondary: #fddd55;
   --color-text: #2e353f;
   --color-success: #6ab04c;
@@ -254,6 +254,13 @@ a:focus {
 .container-2 {
   max-width: var(--maxWidth-4xl);
   margin: 0 auto;
+}
+
+.previous-events h2 {
+  border-bottom: 3px solid #333;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 @media (max-width: 960px) {

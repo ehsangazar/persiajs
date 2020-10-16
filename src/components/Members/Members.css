@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 50px 20px;  
 }
 .Members .member img {
   border-radius: 100%;
@@ -42,4 +42,12 @@
 }
 .Members .member:hover .tooltip {
   display: block;
+}
+
+
+@media (max-width: 960px) {
+  .Members {
+    align-items: center;
+    justify-content: center;
+  }
 }
