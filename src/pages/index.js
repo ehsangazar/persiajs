@@ -7,7 +7,7 @@ import PreviousEvent from "../components/PreviousEvent/PreviousEvent"
 import SEO from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTitle = data?.site.siteMetadata?.title || `Title`
   const [posts,setPosts] = useState([])
 
   useEffect(()=>{
@@ -62,6 +62,13 @@ export const pageQuery = graphql`
           zoom
           date(formatString: "MMMM DD, YYYY")
           description
+          pic {
+            childImageSharp {
+              fluid(maxWidth: 400) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }

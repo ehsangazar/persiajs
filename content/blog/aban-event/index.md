@@ -4,6 +4,7 @@ date: "2020-11-19"
 eventId: 2
 zoom: https://zoom.us/j/92435707903?pwd=V2Y5S2h4NkJvdWhSQXp4cE9HQk50QT09
 description: "Hello World"
+pic: cover.png
 ---
 
 <div class="speaker">

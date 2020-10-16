@@ -4,6 +4,7 @@ date: "2020-10-15"
 eventId: 1
 zoom: https://zoom.us/j/95871414091?pwd=T0xENmpneEV0Wlp5dGorbkFNWS9aUT09
 description: "Hello World"
+pic: computer.png
 ---
 
 <div class="speaker">

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { Link } from "gatsby"
 import './PreviousEvent.css'
-import computerImage from './computer.png'
 import Button from "../Button/Button"
 import MyModal from "../MyModal/MyModal"
 import Alert from "../Alert/Alert"
@@ -79,7 +78,7 @@ const PreviousEvent = ({post}) => {
             />            
           </article>
           <div>
-            <img src={computerImage} />
+            <img src={post.frontmatter.pic.childImageSharp.fluid.src} />
           </div>
         </div>
         {members && (
