@@ -26,6 +26,12 @@
   direction: ltr;
   text-align: left;
 }
+.event-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 @media (max-width: 960px) {
     .FutureEvent {
         flex-direction: column;

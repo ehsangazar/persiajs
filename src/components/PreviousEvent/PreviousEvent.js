@@ -66,6 +66,9 @@ const PreviousEvent = ({post}) => {
     return (
       <>
         <div id="main-event" className="PreviousEvent container-2">          
+          <div className="event-info">
+            <img src={post.frontmatter.pic.childImageSharp.fluid.src} />
+          </div>
           <article itemScope itemType="http://schema.org/Article">
             <h3 itemProp="headline">{post.frontmatter.title}</h3>
             <p>
@@ -76,10 +79,7 @@ const PreviousEvent = ({post}) => {
               dangerouslySetInnerHTML={{ __html: post.html }}
               itemProp="articleBody"
             />            
-          </article>
-          <div>
-            <img src={post.frontmatter.pic.childImageSharp.fluid.src} />
-          </div>
+          </article>          
         </div>
         {members && (
           <div className="container-2">

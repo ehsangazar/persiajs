@@ -65,7 +65,13 @@ const FutureEvent = ({post}) => {
 
     return (
       <>
-        <div id="main-event" className="FutureEvent container-2">          
+        <div id="main-event" className="FutureEvent container-2">                    
+          <div className="event-info">
+            <img src={post.frontmatter.pic.childImageSharp.fluid.src} />
+            <div className="register-button">
+              <Button onClick={register}>عضویت در این رویداد</Button>
+            </div>
+          </div>
           <article itemScope itemType="http://schema.org/Article">
             <h1 itemProp="headline">{post.frontmatter.title}</h1>
             <p>
@@ -77,12 +83,6 @@ const FutureEvent = ({post}) => {
               itemProp="articleBody"
             />            
           </article>
-          <div>
-            <img src={post.frontmatter.pic.childImageSharp.fluid.src} />
-            <div className="register-button">
-              <Button onClick={register}>عضویت در این رویداد</Button>
-            </div>
-          </div>
           <MyModal open={open} setOpen={setOpen}>
             <div>
               <h5>ثبت‌نام در {post.frontmatter.title}</h5>

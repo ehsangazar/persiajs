@@ -25,6 +25,6 @@
     .Button, .button {
         width: 100%;
         text-align: center;
-        margin: 10px;
+        margin: 0px 10px;
     }
 }
