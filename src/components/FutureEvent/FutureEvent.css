@@ -31,6 +31,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  flex: 1 1 50%;
+  padding: 60px;
 }
 @media (max-width: 960px) {
     .FutureEvent {
