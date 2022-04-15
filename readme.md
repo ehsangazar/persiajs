@@ -1,3 +1,3 @@
-# Peria JS 
+# Persia JS 
 This is a community for farsi speaking engineers
 
